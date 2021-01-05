@@ -25,7 +25,7 @@ body{
     bottom: -20px;
     width: 300px;
     height: 2px;
-    background: #e74c3c;
+    background: #e74d3c00;
 }
 
 .guitar_pict{
@@ -57,7 +57,7 @@ h1 {
     bottom: -20px;
     width: 150px;
     height: 2px;
-    background: #e74c3c;
+    background: #e74d3c00;
   }
   p {
     font-family: "Open Sans", sans-serif;
@@ -615,3 +615,40 @@ a {
 .row{
   height: 100px;
 }
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+.nav {
+  width: auto;
+  margin: 0 auto;
+  background: rgb(248, 249, 250);
+  color: #000000;
+  border-bottom-right-radius: 13px;
+  border-bottom-left-radius: 13px;
+}
+.nav a {
+  display: block;
+  padding: 0 16px;
+  line-height: inherit;
+  cursor: pointer;
+}
+.nav__menu {
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.nav__menu-item {
+  display: inline-block;
+  position: relative;
+}
+.nav__menu-item:hover {
+  background-color:rgb(51, 51, 51);
+  color: #ffffff;
+}
+
